@@ -2,9 +2,6 @@
 
 This project is a diagnostic analysis designed to identify and solve underperformance issues affecting the Commercial Performance of the Male Category across various store segments of a major retailer. The goal is to move beyond aggregated reporting to provide data-justified strategies for assortment correction and marketing spend reallocation.
 
-Status: (In Progress)
-
-**Next Update:** SQL query scripts and the final Tableau visualization link will be uploaded shortly.
 ***
 
 ###  Methodology & Execution
@@ -16,10 +13,11 @@ Performance Diagnostics (SQL): Complex SQL queries (JOINs, GROUP BY) calculate k
 Strategic Delivery (Tableau): SQL output is loaded into a Tableau dashboard to visualize findings and deliver data-backed strategies for assortment correction and marketing reallocation.
 ***
 
-###  Visual Analysis & Screenshots
+### Visual Analysis & Screenshots
 
-####  Tableau Dashboard Screenshot
-[Tableau Email Marketing Dashboard Screenshot](Retail Diagnostic Analysis.png)
+#### 1. Tableau Dashboard Screenshot
+
+![Retail Diagnostic Analysis Dashboard Screenshot](Retail_Diagnostic_Dashboard.png)
 
 ***
 
@@ -27,23 +25,23 @@ Strategic Delivery (Tableau): SQL output is loaded into a Tableau dashboard to v
 
 The analysis identified key areas for immediate strategic action:
 
-* **Profit Leakage Elimination:** Identified a critical issue in the **40% discount tier** (Avg. Profit $36 vs. $50 Target). **Recommendation:** Eliminate this tier to protect margins.
-* **Conversion Optimization:** Submission Hour data revealed specific peak conversion times (11 AM, 4 PM, 5 PM). **Recommendation:** Optimize email send schedules to target these precise hours.
-* **Regional Focus:** **United States** and **India** are the highest profitability regions. **Recommendation:** Focus expansion and marketing spend on these high-performing markets.
 
+* **Efficiency Failure:** The analysis confirmed a twin efficiency failure where Male shoppers purchase fewer items (low Basket Size) at a lower average price (low AOV) compared to Female shoppers.
+
+* **Efficiency Target:** The Male segment is performing 46.7% below the established Female Basket Size target.
+
+* **Targeted Marketing:** The Bottom 3 revenue stores are also the stores with the lowest overall traffic and the lowest proportion of Male shoppers. **Recommendation:** Focus marketing spend exclusively on attracting Male traffic to these three specific store locations.
 ***
 
 ###  Tools & Techniques Used
 
-The project pipeline involved: **Data Preparation** using Power Query (MS Excel) ; 
-**Data Modeling** using Advanced Excel (Pivot Tables, XLOOKUP/VLOOKUP) to generate metrics;
-**Visualization** in Tableau Desktop (Dual-Axis charts, customized KPIs);
-**Version Control** via Git & GitHub.
+**Power Query** data manipulation for cleaning and modeling raw retail sales data; 
+**SQL** core performance analysis was executed in , where key efficiency metrics (Average Order Value, basket size) will be determined using complex JOINs and GROUP BY aggregations ;
+**Visualization** in Tableau Desktop ;
 
 ***
 
 ### 📂 Repository Contents & Access
 
 * **Tableau Dashboard:** `Email Marketing Profitability & Risk Analysis.twbx` (Interactive workbook).
-* **Excel Data Model:** `email_marketing_excel.xlsx` (Cleaned data, lookups, and final analysis).
-* **Live Dashboard Link:** [**View the Dashboard Live Here**](https://shorturl.at/ikTSE)
+* **Live Dashboard Link:** [**View the Dashboard Live Here**](https://public.tableau.com/app/profile/meghna.sarkar5141/viz/retail_diagnosis/RetailDiagnosticAnalysis)
