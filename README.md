@@ -19,7 +19,7 @@ Strategic Delivery (Tableau): SQL output is loaded into a Tableau dashboard to v
 ###  Visual Analysis & Screenshots
 
 ####  Tableau Dashboard Screenshot
-![Tableau Email Marketing Dashboard Screenshot]()
+[Tableau Email Marketing Dashboard Screenshot](Retail Diagnostic Analysis.png)
 
 ***
 
