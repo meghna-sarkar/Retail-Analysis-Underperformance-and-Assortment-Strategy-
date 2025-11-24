@@ -43,5 +43,5 @@ The analysis identified key areas for immediate strategic action:
 
 ### 📂 Repository Contents & Access
 
-* **Tableau Dashboard:** `Email Marketing Profitability & Risk Analysis.twbx` (Interactive workbook).
+* **Tableau Dashboard:** `retail_diagnosis.twb` (Interactive workbook).
 * **Live Dashboard Link:** [**View the Dashboard Live Here**](https://public.tableau.com/app/profile/meghna.sarkar5141/viz/retail_diagnosis/RetailDiagnosticAnalysis)
